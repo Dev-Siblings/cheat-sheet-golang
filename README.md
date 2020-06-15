@@ -4,7 +4,7 @@ A cheat sheet for quick reference.
 **&nbsp;** **[`Hello World`](#helloworld)**, **[`Variables`](#variables)**, **[`Operators`](#operators)**, **[`Loops`](#loops)**, **[`Function`](#function)**, **[`Decision`](#decision)**, **[`Array`](#array)**, **[`Map`](#map)**, **[`Pointers`](#pointers)**, **[`Type-Conversion`](#type-conversion)**, **[`Struct`](#struct)**, **[`Interface`](#interface)**, **[`Init-Function`](#init-function)**, **[`Import`](#import)**, **[`Aliaes`](#aliaes)**, **[`Package`](#package)**, **[`Goroutines`](#goroutines)**, **[`Buffered Channels`](#buffered-channels)**, **[`WaitGroup`](#waitgroup)**, **[`Closing Channels`](#closing-channels)**, **[`Error Handling`](#error-handling)**, **[`Method`](#methods)** **&nbsp;&nbsp;&nbsp;**
 
 
-### HelloWorld
+## Hello World
 ```go
 package main
 
@@ -15,7 +15,7 @@ func main() {
 }
 ```
 
-### Variables
+## Variables
 ```go
 func main() {
 	var aIntVar int = 10
@@ -47,7 +47,7 @@ func main() {
 }
 ```
 
-### Operators
+## Operators
 ```go
 func main() {
 	x, y := 100, 20
@@ -75,7 +75,7 @@ func main() {
 }
 ```
 
-### Loops
+## Loops
 ```go
 func main() {
 	// for loop
@@ -93,7 +93,7 @@ func main() {
 
 ```
 
-### Function
+## Function
 ```go
 func main() {
 	result := aFunction()
@@ -116,7 +116,7 @@ func anonFunction() func() int {
 }
 ```
 
-### Decision
+## Decision
 ```go
 func main() {
 	age := 29
@@ -138,7 +138,7 @@ func main() {
 }
 ```
 
-### Array
+## Array
 ```go
 func main() {
 	//Create an array
@@ -176,7 +176,7 @@ func main() {
 }
 ```
 
-### Map
+## Map
 ```go
 func main() {
 	// key => String, value => int
@@ -209,7 +209,7 @@ func main() {
 }
 ```
 
-### Pointers
+## Pointers
 ```go
 func main () {
   result := *getAPointer()
@@ -226,7 +226,7 @@ a := new(int)
 
 ```
 
-### Type-Conversion
+## Type-Conversion
 ```go
 someInt := 2
 someFloat := float64(someInt)
@@ -235,7 +235,7 @@ someUint := uint(someFloat)
 // Destination type must be larger than source.
 ```
 
-### Struct
+## Struct
 
 ```go
 // Memory boundaries are important (Bool is 1 byte can save anywhere, 
@@ -284,7 +284,7 @@ func (a *Alice) UpdateFlag(flag bool) {
 }
 ```
 
-### Interface
+## Interface
 ```go
 func main() {
 	rect := Rectangle{5, 5}
@@ -336,28 +336,28 @@ func main() {
 }
 ```
 
-### Import
+## Import
 
 
-### Aliaes
+## Aliaes
 
 
-### Package
+## Package
 
 
-### Goroutines
+## Goroutines
 
 
-### Buffered Channels
+## Buffered Channels
 
 
-### WaitGroup
+## WaitGroup
 
 
-### Closing Channels
+## Closing Channels
 
 
-### Error Handling
+## Error Handling
 
 
-### Methods
+## Methods
