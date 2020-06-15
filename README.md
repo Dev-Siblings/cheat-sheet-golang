@@ -1,7 +1,7 @@
 # Cheat Sheet Golang
 A cheat sheet for quick reference.
 
-**&nbsp;** **[`Hello World`](#helloworld)**, **[`Variables`](#variables)**, **[`Operators`](#operators)**, **[`Loops`](#loops)**, **[`Function`](#function)**, **[`Decision`](#decision)**, **[`Array`](#array)**, **[`Map`](#map)**, **[`Pointers`](#pointers)**, **[`Type-Conversion`](#type-conversion)**, **[`Struct`](#struct)**, **[`Interface`](#interface)**, **[`Init-Function`](#init-function)** **&nbsp;&nbsp;&nbsp;**
+**&nbsp;** **[`Hello World`](#helloworld)**, **[`Variables`](#variables)**, **[`Operators`](#operators)**, **[`Loops`](#loops)**, **[`Function`](#function)**, **[`Decision`](#decision)**, **[`Array`](#array)**, **[`Map`](#map)**, **[`Pointers`](#pointers)**, **[`Type-Conversion`](#type-conversion)**, **[`Struct`](#struct)**, **[`Interface`](#interface)**, **[`Init-Function`](#init-function)**, **[`Import`](#import)**, **[`Aliaes`](#aliaes)**, **[`Package`](#package)**, **[`Goroutines`](#goroutines)**, **[`Buffered Channels`](#buffered-channels)**, **[`WaitGroup`](#waitgroup)**, **[`Closing Channels`](#closing-channels)**, **[`Error Handling`](#error-handling)**, **[`Method`](#methods)** **&nbsp;&nbsp;&nbsp;**
 
 
 ### HelloWorld
@@ -99,7 +99,7 @@ func main() {
 	result := aFunction()
 	fmt.Println(result)
 
-    // Anonymous Function
+        // Anonymous Function
 	fmt.Println(anonFunction()())
 }
 
@@ -335,3 +335,29 @@ func main() {
 	fmt.Println("main function call")
 }
 ```
+
+### Import
+
+
+### Aliaes
+
+
+### Package
+
+
+### Goroutines
+
+
+### Buffered Channels
+
+
+### WaitGroup
+
+
+### Closing Channels
+
+
+### Error Handling
+
+
+### Methods
