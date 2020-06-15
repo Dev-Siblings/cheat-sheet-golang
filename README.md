@@ -1,7 +1,10 @@
 # Cheat Sheet Golang
 A cheat sheet for quick reference.
 
-### Hello World
+**&nbsp;** **[`Hello World`](#helloworld)**, **[`Variables`](#variables)** **&nbsp;&nbsp;&nbsp;**
+
+
+### HelloWorld
 ```go
 package main
 
