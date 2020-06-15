@@ -1,7 +1,7 @@
 # Cheat Sheet Golang
 A cheat sheet for quick reference.
 
-**&nbsp;** **[`Hello World`](#helloworld)**, **[`Variables`](#variables)** **&nbsp;&nbsp;&nbsp;**
+**&nbsp;** **[`Hello World`](#helloworld)**, **[`Variables`](#variables)**, **[`Operators`](#operators)**, **[`Loops`](#loops)**, **[`Function`](#function)**, **[`Decision`](#decision)**, **[`Array`](#array)**, **[`Map`](#map)**, **[`Pointers`](#pointers)**, **[`Type-Conversion`](#type-conversion)**, **[`Struct`](#struct)**, **[`Interface`](#interface)**, **[`Init-Function`](#init-function)** **&nbsp;&nbsp;&nbsp;**
 
 
 ### HelloWorld
@@ -116,7 +116,7 @@ func anonFunction() func() int {
 }
 ```
 
-### Decision Making
+### Decision
 ```go
 func main() {
 	age := 29
@@ -226,7 +226,7 @@ a := new(int)
 
 ```
 
-### Type Conversion
+### Type-Conversion
 ```go
 someInt := 2
 someFloat := float64(someInt)
@@ -323,7 +323,7 @@ func getArea(shape Shape) float64 {
 }
 ```
 
-### Init function
+### Init-function
 ```go
 // it Can be used with in a package block and regardless of how many times that package is imported, 
 // the initfunction will only be called once.
