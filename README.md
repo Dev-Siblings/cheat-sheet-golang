@@ -228,13 +228,16 @@ a := new(int)
 someInt := 2
 someFloat := float64(someInt)
 someUint := uint(someFloat)
-// Conversion: is made automatically by complier. Can be applied only when types are compatible. Destination type must be larger than source.
+// Conversion: is made automatically by complier. Can be applied only when types are compatible. 
+// Destination type must be larger than source.
 ```
 
 ### Struct
 
 ```go
-// Memory boundaries are important (Bool is 1 byte can save anywhere, int16 is 2 bytes can only save at 0,2,4,6 index, int32 is 4 byte can only save at index 0,4, int64 is 8 byte can only save at index 0, 8.).
+// Memory boundaries are important (Bool is 1 byte can save anywhere, 
+// int16 is 2 bytes can only save at 0,2,4,6 index, int32 is 4 byte can only save at index 0,4, 
+// int64 is 8 byte can only save at index 0, 8.).
 
 func main() {
 	//implicit conversion when named type, need implicit conversion
@@ -319,7 +322,8 @@ func getArea(shape Shape) float64 {
 
 ### Init function
 ```go
-// it Can be used with in a package block and regardless of how many times that package is imported, the initfunction will only be called once.
+// it Can be used with in a package block and regardless of how many times that package is imported, 
+// the initfunction will only be called once.
 func init() {
 	fmt.Println("init function call")
 }
